@@ -9,7 +9,7 @@ public class Employeeclass {
 	 public Employeeclass(String name,int id,double sal){
 		 this.empName = name;
 		 this.empId = id;
-		 this.empSal= Sal;
+		 this.empSal= sal;
      }
 	
 	 public String getEmpName(){

@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Myclass {
-	public static void main(String[] args) {
 		Map<Integer,Employeeclass> empMap=new HashMap<Integer,Employeeclass>();
 		for (int i = 0; i <= 10; i++) {
 			String name="emp" + i;
@@ -18,15 +17,16 @@ public class Myclass {
 		}
 		
 		
-		 for(Map.Entry<Integer, Employeeclass> entry:empMap.entrySet()){ 
+		 for(Map.Entry<Integer, Employeeclass> entry:empMap.entrySet())
+		 
 			 	int employeeId=entry.getKey();
 			 	Employeeclass empDetails=entry.getValue();
 			 	System.out.println(employeeId+" Details:");
-
 			 	System.out.println("emp name is");
-		 }
-		 
-		    }   
-	}
 
+		 
+		 
+	 }   
+	}
+	 
 
